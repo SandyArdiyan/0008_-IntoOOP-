@@ -17,14 +17,14 @@ public: // akses modifier
 
 
 class Matakuliuah {
-private:
+private;
 	string kodemk;
 	string namamk;
 	int sks;
 public:
 	void input() {
 		cout << "kode MK: ";
-		cin >> kodeMk;
+		cin >> kodeMK;
 		cout << "NamaMK; ";
 		cin >> namaMk;
 		cout << "SKS: ";
@@ -34,4 +34,21 @@ public:
 	void output() {
 		cout << "Kode MK: " << kodeMK << endl;
 		cout << "Nama MK: " << namaMK << endl;
-		
+		cout << "SKS: << sks << endl;
+	}
+};
+
+int main() {
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	mhs.nama = "Budi";
+	mhs.umur = 20;
+	mhs.jurusan = "Teknik Informatika";
+	mhs.output();
+
+	mk.input();
+	mk.output();
+
+	return 0;
+}
