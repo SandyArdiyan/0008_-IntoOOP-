@@ -1,13 +1,17 @@
 #include <iostream>
 using namespace std;
 
-class Mahasiswa{
+class Mahasiswa {
 public: // akses modifier
 	string nama;
 	int umur;
 	string jurusan;
-	
-	void output(){
+
+	void output() {
 		cout << "Nama: " << nama << endl;
 		cout << "umur: " << umur << endl;
-		
+		cout << "Jurusan: " << jurusan << endl;
+	}
+
+};
+
