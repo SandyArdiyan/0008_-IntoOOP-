@@ -15,3 +15,10 @@ public: // akses modifier
 
 };
 
+
+class Matakuliuah{
+private:
+	string kodemk;
+	string namamk;
+	int sks;
+public :
