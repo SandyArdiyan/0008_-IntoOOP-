@@ -16,9 +16,18 @@ public: // akses modifier
 };
 
 
-class Matakuliuah{
+class Matakuliuah {
 private:
 	string kodemk;
 	string namamk;
 	int sks;
-public :
+public:
+	void input() {
+		cout << "kode MK: ";
+		cin >> kodeMk;
+		cout << "NamaMK; ";
+		cin >> namaMk;
+		cout << "SKS: ";
+		cin >> sks;
+	
+}
